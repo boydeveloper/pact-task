@@ -11,16 +11,50 @@ html {
   overflow-x: hidden;
 }
 body {
-  font-size: 1.4rem;
   padding: 0;
   margin: 0;
+  font-size: 1.4rem;
+  font-weight: 400;
   box-sizing: border-box;
   color: var(--text-color);
   font-family: 'Inter', serif;
 }
-
+section {
+  padding-bottom: 10rem;
+}
 .container {
   max-width: 140rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+}
+.utility__heading {
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 6.8rem;
+  margin-bottom: 2rem;
+}
+.utility__summary {
+  font-size: 2rem;
+  line-height: 3.6rem;
+  color: #686868;
+  margin-bottom: 3.1rem;
+}
+.utility--flex {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 15rem;
+}
+.utility--flex a:link,
+.utility--flex a:visited {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+.utility--flex img {
+  width: 100%;
+}
+
+.util__textbox {
+  padding-top: 4rem;
 }

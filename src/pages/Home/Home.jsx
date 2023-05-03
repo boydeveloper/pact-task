@@ -1,10 +1,29 @@
-import { Hero, Businesses } from './Sections/index';
+import POS from './Sections/POS/POS';
+import {
+  Hero,
+  Businesses,
+  Products,
+  Customer,
+  Finances,
+  Team,
+  Solution,
+  Manufacturers,
+} from './Sections/index';
 
 function Home() {
   return (
     <>
-      <Hero />
-      <Businesses />
+      <div className="container">
+        <Hero />
+        <Businesses />
+        <Products />
+        <Customer />
+        <Finances />
+        <POS />
+        <Team />
+        <Solution />
+        <Manufacturers />
+      </div>
     </>
   );
 }

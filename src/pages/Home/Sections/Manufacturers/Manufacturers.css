@@ -1,0 +1,13 @@
+.manufacturers__wrapper--right h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 5.8rem;
+  margin-bottom: 2.6rem;
+}
+
+.manufacturers__wrapper--right p {
+  font-size: 2rem;
+  font-weight: 400;
+  /* color: ; */
+  color: #686868;
+}
