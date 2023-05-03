@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #dedeed;
+  --secondary-color: #525298;
+  --text-color: #262626;
+  --color-black: #000;
+  --color-white: #ffff;
+  --light-text-color: #666666;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-size: 1.4rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  font-family: 'Inter', serif;
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
