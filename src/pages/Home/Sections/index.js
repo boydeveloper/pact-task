@@ -6,3 +6,8 @@ export { default as Finances } from './Finances/Finances';
 export { default as Team } from './Team/Team';
 export { default as Solution } from './Solution/Solution';
 export { default as Manufacturers } from './Manufacturers/Manufacturers';
+export { default as Pactpro } from './PactPro/Pactpro';
+export { default as Pricing } from './Pricing/Pricing';
+export { default as Newsletter } from './Newsletter/Newsletter';
+export { default as CTA } from './CTA/CTA';
+export { default as Resources } from './Resources/Resources';

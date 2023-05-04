@@ -4,8 +4,8 @@
   text-align: center;
   color: #222222;
   font-weight: 600;
-  /* color: #222; */
   font-size: 5.7rem;
+  margin-bottom: 9rem;
 }
 .solution__wrapper--grid-items {
   display: grid;
@@ -24,13 +24,14 @@
   max-width: 37.8rem;
   margin: 0 auto;
 }
-.solution__grid-item h1 {
+.solution__grid-item > h4 {
   font-size: 1.6rem;
   font-weight: 500;
+  margin-top: 3.2rem;
   color: var(--color-black);
   margin-bottom: 1.6rem;
 }
-.solution__grid-item p {
+.solution__grid-item > p {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.4rem;
@@ -42,6 +43,4 @@
   color: var(--secondary-color);
   font-size: 1.3rem;
   font-weight: 600;
-  /* line-height: 2.4rem; */
-  /* text-decoration: underline; */
 }

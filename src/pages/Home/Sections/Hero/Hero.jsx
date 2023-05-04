@@ -7,7 +7,6 @@ import heroImgFour from '../../../../assets/hero__img-four.svg';
 function Hero() {
   return (
     <section>
-      {/* <div className="container"> */}
       <div className="hero__wrapper">
         <div className="hero__wrapper--top">
           <div className="hero__pill">
@@ -23,6 +22,7 @@ function Hero() {
             </h1>
             <p className="hero__summary">
               Sign up to start selling on Pact’s marketplace. Receive payments
+              <br />
               securely, instantly and sell with all the tools you need!
             </p>
             <a href="#" className="hero__btn">

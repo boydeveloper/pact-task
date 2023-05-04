@@ -1,3 +1,11 @@
+.manufacturers__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 9.396rem;
+}
+.manufacturers__wrapper--right {
+  padding-top: 4.8rem;
+}
 .manufacturers__wrapper--right h1 {
   font-size: 4rem;
   font-weight: 600;
@@ -5,9 +13,15 @@
   margin-bottom: 2.6rem;
 }
 
-.manufacturers__wrapper--right p {
+.manufacturers__wrapper--right > p {
   font-size: 2rem;
   font-weight: 400;
-  /* color: ; */
+  line-height: 3.6rem;
+  margin-bottom: 3rem;
   color: #686868;
+}
+.manufacturers__wrapper--right > a:link,
+.manufacturers__wrapper--right > a:visited {
+  font-size: 2rem;
+  font-weight: 600;
 }

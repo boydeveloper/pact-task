@@ -8,6 +8,11 @@ import {
   Team,
   Solution,
   Manufacturers,
+  Pactpro,
+  Pricing,
+  Newsletter,
+  CTA,
+  Resources,
 } from './Sections/index';
 
 function Home() {
@@ -23,6 +28,11 @@ function Home() {
         <Team />
         <Solution />
         <Manufacturers />
+        <Pactpro />
+        <Pricing />
+        <Newsletter />
+        <CTA />
+        <Resources />
       </div>
     </>
   );

@@ -1,0 +1,42 @@
+.pactpro__wrapper {
+  display: flex;
+  gap: 8.8rem;
+}
+
+.pactpro > h1 {
+  font-size: 5.9rem;
+  margin-bottom: 9rem;
+  font-weight: 600;
+}
+
+.pactpro__feature--header {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.pactpro__features {
+  display: grid;
+  padding-top: 2rem;
+  gap: 8.3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.pactpro__feature {
+  display: flex;
+  gap: 1.8rem;
+  align-items: flex-start;
+}
+.pactpro__feature--desc > span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  display: inline-block;
+  color: #262626;
+}
+
+.pactpro__feature--desc > p {
+  font-size: 1.6rem;
+  color: #7a7a7a;
+  max-width: 26.6rem;
+  font-weight: 400;
+  line-height: 2.9rem;
+}

@@ -5,16 +5,14 @@ function Finances() {
     <section>
       <div className="finances__wrapper utility--flex">
         <div className="finances__wrapper--left util__textbox">
-          <h1 className="utility__heading">
-            List your products on our marketplace.
-          </h1>
+          <h1 className="utility__heading">Manage your business finances.</h1>
           <p className="utility__summary">
-            Get discovered by thousands of Africans. Sign up and start listing
-            your items for free on our marketplace. We help you receive payments
-            securely through escrow and help you deliver straight to your
-            customers.
+            Get paid directly and instantly to a bank account created specially
+            for your business. Budget your income, earn extra on every item
+            sold, pay your staff and suppliers and get forward financing to
+            purchase products.
           </p>
-          <a href="#">See our commerce solutions.</a>
+          <a href="#">See our payment solutions.</a>
         </div>
         <div className="finances__wrapper--right">
           <img src={FinancesImg} alt="A boy checking out a CD disk" />

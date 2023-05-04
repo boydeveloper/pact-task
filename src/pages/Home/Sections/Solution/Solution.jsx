@@ -14,7 +14,6 @@ function Solution() {
         <div className="solution__wrapper--grid-items">
           <div className="solution__grid-item">
             <img src={solutionImgOne} alt=" A lady smiling" />
-
             <h4>Fashion & Beauty Businesses</h4>
             <p>
               Sell fashion items and earn daily, help your customers find items

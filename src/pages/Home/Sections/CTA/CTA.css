@@ -1,0 +1,40 @@
+.cta {
+  background-color: var(--primary-color);
+  padding: 5.9rem 6.4rem;
+  border-radius: 1.2rem;
+}
+
+.cta > img {
+  margin-bottom: 5.4rem;
+}
+.cta > p {
+  font-weight: 500;
+  font-weight: #222222;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+.cta__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta__description > h6 {
+  font-size: 6.4rem;
+  font-weight: inherit;
+  display: inline-block;
+  /* line-height: 8rem; */
+  /* margin-top: 5rem; */
+}
+.cta__description > a:link,
+.cta__description > a:visited {
+  background-color: #222222;
+  padding: 2.4rem 9rem;
+  height: fit-content;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  margin-top: auto;
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: inline-block;
+  color: var(--color-white);
+}

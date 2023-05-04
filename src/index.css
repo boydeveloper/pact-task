@@ -6,21 +6,23 @@
   --color-white: #ffff;
   --light-text-color: #666666;
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
 body {
-  padding: 0;
-  margin: 0;
   font-size: 1.4rem;
   font-weight: 400;
-  box-sizing: border-box;
   color: var(--text-color);
   font-family: 'Inter', serif;
 }
 section {
-  padding-bottom: 10rem;
+  padding: 10rem 0;
 }
 .container {
   max-width: 140rem;
@@ -56,5 +58,5 @@ section {
 }
 
 .util__textbox {
-  padding-top: 4rem;
+  padding-top: 8rem;
 }

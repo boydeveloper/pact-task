@@ -1,4 +1,4 @@
-import { BannerMessage, Navbar } from './components/index';
+import { BannerMessage, Navbar, Footer } from './components/index';
 import Home from './pages/Home/Home';
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
       <BannerMessage />
       <Navbar />
       <Home />
+      <Footer />
     </>
   );
 }
