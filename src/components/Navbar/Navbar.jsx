@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 import pactLogo from '../../assets/pact_logo.svg';
 import searchIcon from '../../assets/icons/searchicon.svg';
 import './Navbar.css';
@@ -18,7 +17,7 @@ function Navbar() {
             <button
               className="navbar__menubtn  close-btn"
               onClick={() => {
-                setnavOpen(false);
+                setnavOpen(!navOpen);
               }}
             >
               <ion-icon name="close-outline"></ion-icon>
@@ -48,7 +47,6 @@ function Navbar() {
             className="navbar__menubtn"
             onClick={() => {
               setnavOpen(!navOpen);
-              console.log('hi');
             }}
           >
             <ion-icon name="menu-outline"></ion-icon>

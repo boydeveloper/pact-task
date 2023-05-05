@@ -56,7 +56,6 @@
 .navbar__menu {
   display: flex;
   width: 85%;
-  /* gap: 2rem; */
   justify-content: space-between;
 }
 
