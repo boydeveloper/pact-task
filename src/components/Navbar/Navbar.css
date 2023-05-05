@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   padding: 3.65rem 0;
+  position: relative;
   justify-content: space-between;
 }
 .navbar__brand {
@@ -13,13 +14,22 @@
   gap: 1.6rem;
 }
 .navbar__input {
-  width: 30%;
+  width: 40%;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
-.navbar__input input {
+.search__icon {
+  z-index: 9;
+  position: absolute;
+  left: 1rem;
+}
+.navbar__input > input {
   width: 100%;
-  padding: 1.3rem 1.7rem;
+  padding: 1.3rem 1.7rem 1.3rem 3.5rem;
   font-size: inherit;
   font-family: inherit;
+  z-index: 1;
   background: #f2f2f2;
   border: 0.1rem solid #cccc;
   border-radius: 0.8rem;
@@ -43,6 +53,12 @@
 .navbar__cta > a:visited {
   text-decoration: none;
 }
+.navbar__menu {
+  display: flex;
+  width: 85%;
+  /* gap: 2rem; */
+  justify-content: space-between;
+}
 
 .navbar__cta > a:link:nth-child(2),
 .navbar__cta > a:visited:nth-child(2) {
@@ -50,4 +66,75 @@
   padding: 1.2rem 2.4rem;
   border-radius: 0.8rem;
   color: var(--color-white);
+}
+
+.navbar__menubtn {
+  display: none;
+  background: var(--secondary-color);
+  color: var(--color-white);
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+.navbar__menubtn > ion-icon {
+  font-size: 3.5rem;
+}
+
+@media (max-width: 1094px) {
+  .navbar {
+    padding: 2.5rem 0;
+  }
+  .navbar__menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    min-width: 28rem;
+    background-color: #f5f5f5;
+    transform: translateX(100%);
+    height: 100vh;
+    padding: 12rem 4rem;
+    gap: 4rem;
+    flex-direction: column;
+    justify-content: unset;
+    transition: transform 0.3s ease;
+  }
+  .navbar__links,
+  .navbar__cta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .close-btn {
+    background: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    font-size: 3.2rem;
+    padding-left: 2rem;
+    color: var(--secondary-color);
+  }
+  .navbar__open .navbar__menu {
+    position: fixed;
+    transform: translateX(0%);
+    height: 100%;
+  }
+
+  .navbar__menubtn {
+    display: block;
+  }
+  .navbar__input {
+    width: 100%;
+  }
+
+  .navbar__menubtn > ion-icon[name='close-outline'] {
+    display: none;
+  }
+  .navbar__open .navbar__menubtn > ion-icon[name='menu-outline'] {
+    display: none;
+  }
+  .navbar__open .navbar__menubtn > ion-icon[name='close-outline'] {
+    display: block;
+  }
 }

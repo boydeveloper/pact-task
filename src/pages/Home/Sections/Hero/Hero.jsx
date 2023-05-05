@@ -37,7 +37,6 @@ function Hero() {
           <img src={heroImgFour} alt="" />
         </div>
       </div>
-      {/* </div> */}
     </section>
   );
 }
