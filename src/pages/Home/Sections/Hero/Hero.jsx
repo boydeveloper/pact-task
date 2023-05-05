@@ -1,9 +1,9 @@
 import './Hero.css';
 import rightArrow from '../../../../assets/pact__rightarrowicon.svg';
-import heroImgOne from '../../../../assets/hero__img-one.svg';
-import heroImgTwo from '../../../../assets/hero__img-two.svg';
-import heroImgThree from '../../../../assets/hero__img-three.svg';
-import heroImgFour from '../../../../assets/hero__img-four.svg';
+import heroImgOne from '../../../../assets/images/Rectangle 54 (3).png';
+import heroImgTwo from '../../../../assets/images/Rectangle 54 (4).png';
+import heroImgThree from '../../../../assets/images/Rectangle 54 (5).png';
+import heroImgFour from '../../../../assets/images/Rectangle 54 (6).png';
 function Hero() {
   return (
     <section>
@@ -31,10 +31,14 @@ function Hero() {
           </div>
         </div>
         <div className="hero__wrapper--bottom">
-          <img src={heroImgOne} alt="A waiter holding a coffee" />
-          <img src={heroImgTwo} alt="" />
-          <img src={heroImgThree} alt="" />
-          <img src={heroImgFour} alt="" />
+          <img
+            src={heroImgOne}
+            alt="A waiter holding a coffee"
+            className="hero__img"
+          />
+          <img src={heroImgTwo} alt="" className="hero__img" />
+          <img src={heroImgThree} alt="" className="hero__img" />
+          <img src={heroImgFour} alt="" className="hero__img" />
         </div>
       </div>
     </section>

@@ -2,7 +2,7 @@ import customerImg from '../../../../assets/images/pact__img-ft2.png';
 function Customer() {
   return (
     <section>
-      <div className="customer__wrapper utility--flex">
+      <div className="customer__wrapper utility--flex  utility--flex__col-reverse">
         <div className="products__wrapper--left ">
           <img src={customerImg} alt="A lady smiling at a book" />
         </div>

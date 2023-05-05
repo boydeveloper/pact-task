@@ -3,9 +3,11 @@
   text-align: center;
   display: flex;
   align-items: center;
+
   font-size: 1.4rem;
   justify-content: center;
   height: 5rem;
+  padding: 0 1rem;
   color: var(--light-text-color);
 }
 .banner__container a:link,

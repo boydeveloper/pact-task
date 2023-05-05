@@ -3,7 +3,7 @@ import posImg from '../../../../assets/images/Rectangle 54.png';
 function POS() {
   return (
     <section>
-      <div className="POS__wrapper utility--flex">
+      <div className="POS__wrapper utility--flex utility--flex__col-reverse">
         <div className="POS__wrapper--left ">
           <img src={posImg} alt="A lady smiling at a book" />
         </div>
