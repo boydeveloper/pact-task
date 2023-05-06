@@ -21,7 +21,7 @@ function Hero() {
               Get your brand in front of thousands of Africans.
             </h1>
             <p className="hero__summary">
-              Sign up to start selling on Pact’s marketplace. Receive payments
+              Sign up to start selling on Pact’s marketplace. Receive payments{' '}
               <br />
               securely, instantly and sell with all the tools you need!
             </p>

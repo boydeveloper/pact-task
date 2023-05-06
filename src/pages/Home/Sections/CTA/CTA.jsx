@@ -4,7 +4,7 @@ function CTA() {
   return (
     <section>
       <div className="cta">
-        <img src={rings} alt="" />
+        <img src={rings} alt="rings" />
         <p>Let’s get started</p>
         <div className="cta__description">
           <h6>

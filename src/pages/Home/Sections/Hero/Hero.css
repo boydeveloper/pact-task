@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.7rem;
-  max-width: 39.7rem;
+  max-width: 39.9rem;
   padding: 0.9rem 2rem 0.9rem 1rem;
   border-radius: 2rem;
   margin: 0 auto 3.7rem;
@@ -75,5 +75,32 @@
   }
   .hero__img {
     max-height: 100%;
+  }
+  .hero__title {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 715px) {
+  .hero__title {
+    font-size: 4.2rem;
+  }
+}
+@media (max-width: 472px) {
+  .hero__pill {
+    padding: 0.5rem 2rem 0.5rem 1rem;
+  }
+  .pill__text {
+    font-size: 1.1rem;
+  }
+  .hero__title {
+    font-size: 3.4rem;
+  }
+  .hero__summary {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+  }
+  .hero__btn:link,
+  .hero__btn:visited {
+    padding: 1.8rem 5rem;
   }
 }

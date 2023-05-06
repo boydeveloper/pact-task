@@ -17,8 +17,8 @@
   justify-content: space-between;
   margin-bottom: 8.4rem;
   padding-left: 1.4rem;
+  gap: 2rem;
   position: relative;
-  /* padding: 5.2rem 0; */
 }
 .resources__accordion--resource-num {
   position: absolute;
@@ -28,7 +28,41 @@
   font-size: 1.6rem;
   font-weight: 500;
 }
+.resources__accordion--resource > img {
+  width: 2.87rem;
+  height: 3.9rem;
+}
 .resources__accordion--resource > h1 {
   font-weight: 600;
   font-size: 4rem;
+}
+@media (max-width: 1100px) {
+  .resources {
+    margin: 2.5rem 0;
+  }
+  .resources > h1 {
+    font-size: 4.4rem;
+  }
+  .resources__accordion--resource > h1 {
+    font-weight: 600;
+    font-size: 3.2rem;
+  }
+  .resources__accordion--resource {
+    margin-bottom: 6rem;
+  }
+}
+@media (max-width: 715px) {
+  .resources__accordion--resource {
+    margin-bottom: 4rem;
+  }
+  .resources > h1 {
+    font-size: 3.4rem;
+  }
+  .resources__accordion--resource > h1 {
+    font-size: 2.2rem;
+  }
+  .resources__accordion--resource > img {
+    width: 2.3rem;
+    height: 2.9rem;
+  }
 }

@@ -1,15 +1,12 @@
 .businesses__wrapper {
-  /* padding: 10rem 0; */
 }
-.businesses__wrapper > h2 {
-  font-size: 5.9rem;
-  font-weight: 600;
-  line-height: 7.9rem;
-}
+
 .businesses__box {
   display: flex;
   gap: 5.5rem;
   align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4.6rem;
 }
 .businesses__number {
   display: flex;
@@ -26,7 +23,49 @@
   color: var(--color-black);
 }
 .businesses__logos {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1.3fr;
   align-items: baseline;
   gap: 6rem;
+  width: 52%;
+}
+.business__logo {
+  width: 100%;
+  min-width: 12.8rem;
+  height: 5rem;
+}
+
+@media (max-width: 1100px) {
+  .businesses__box {
+    gap: 1.8rem;
+  }
+  .businesses__box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .businesses__logos {
+    width: 100%;
+  }
+}
+@media (max-width: 715px) {
+  .businesses__logos {
+    gap: 2rem;
+  }
+  .business__logo {
+    min-width: unset;
+    width: 100%;
+  }
+
+  .businesses__number > span {
+    font-size: 2.5rem;
+  }
+  .businesses__number > span:nth-child(2) {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 524px) {
+  .businesses__logos {
+    gap: 1rem;
+    align-items: flex-start;
+  }
 }

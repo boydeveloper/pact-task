@@ -8,8 +8,7 @@ function Solution() {
       <div className="solution__wrapper">
         <h1>
           A solution for different
-          <br />
-          types of businesses.
+          <br /> types of businesses.
         </h1>
         <div className="solution__wrapper--grid-items">
           <div className="solution__grid-item">

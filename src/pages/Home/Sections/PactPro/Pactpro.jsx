@@ -8,7 +8,7 @@ function Pactpro() {
   return (
     <section>
       <div className="pactpro">
-        <h1>
+        <h1 className="secondary__heading">
           Pact Pro helps your small <br /> business do more.
         </h1>
 
