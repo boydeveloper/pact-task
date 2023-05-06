@@ -17,7 +17,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 2rem;
-  gap: 8.3rem;
+  gap: 6rem;
+  row-gap: 2rem;
 }
 .pactpro__feature {
   display: flex;
@@ -38,6 +39,14 @@
   max-width: 26.6rem;
   font-weight: 400;
   line-height: 2.9rem;
+}
+.pactpro__wrapper--right > a:link,
+.pactpro__wrapper--right > a:visited {
+  font-size: 2rem;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 3.3rem;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 1370px) {
@@ -67,6 +76,10 @@
   .pactpro__wrapper {
     gap: 5rem;
   }
+  .pactpro__wrapper--right > a:link,
+  .pactpro__wrapper--right > a:visited {
+    font-size: 1.8rem;
+  }
 }
 @media (max-width: 472px) {
   .pactpro__wrapper {
@@ -75,7 +88,12 @@
   .pactpro__features {
     grid-template-columns: 1fr;
   }
+
   .pactpro__feature--desc > p {
     max-width: 100%;
+  }
+  .pactpro__wrapper--right > a:link,
+  .pactpro__wrapper--right > a:visited {
+    font-size: 1.6rem;
   }
 }

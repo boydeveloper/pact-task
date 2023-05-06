@@ -5,7 +5,6 @@ import twitter from '../../assets/icons/twitter.svg';
 import './Footer.css';
 function Footer() {
   return (
-    // <section>
     <div className="footer">
       <div className="container">
         <div className="footer__grid--cols">
@@ -118,7 +117,6 @@ function Footer() {
             <a href="#" className="footer__email">
               hello@usepact.one
             </a>
-
             <p className="footer__address">Santos layout, Lagos, Nigeria</p>
           </div>
 

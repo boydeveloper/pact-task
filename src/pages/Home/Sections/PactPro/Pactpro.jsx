@@ -14,7 +14,7 @@ function Pactpro() {
 
         <div className="pactpro__wrapper">
           <div className="pactpro__wrapper--left">
-            <img src={pactproImg} alt="" />
+            <img src={pactproImg} alt="A lady smiling" />
           </div>
           <div className="pactpro__wrapper--right">
             <div className="pactpro__features">
@@ -41,7 +41,7 @@ function Pactpro() {
                 </div>
               </div>
               <div className="pactpro__feature">
-                <img src={gavel} alt="" />
+                <img src={gavel} alt="gavel icon" />
                 <div className="pactpro__feature--desc">
                   <span>Swift an instant dispute resolution system.</span>
                   <p>
@@ -63,6 +63,7 @@ function Pactpro() {
                 </div>
               </div>
             </div>
+            <a href="#">Learn more about the benefits of Pact pro</a>
           </div>
         </div>
       </div>

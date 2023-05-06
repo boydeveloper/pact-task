@@ -27,6 +27,7 @@ section {
 }
 a:hover,
 a:active {
+  cursor: pointer;
   opacity: 0.8;
 }
 .container {
