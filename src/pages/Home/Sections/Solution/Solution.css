@@ -26,7 +26,7 @@
   cursor: pointer;
 }
 .solution__grid-item:hover {
-  transform: translateY(-10%);
+  transform: translateY(-5%);
 }
 .solution__grid-item > img {
   width: 100%;

@@ -1,5 +1,5 @@
 import './Hero.css';
-import rightArrow from '../../../../assets/pact__rightarrowicon.svg';
+import rightArrow from '../../../../assets/icons/pact__rightarrowicon.svg';
 import heroImgOne from '../../../../assets/images/Rectangle 54 (3).png';
 import heroImgTwo from '../../../../assets/images/Rectangle 54 (4).png';
 import heroImgThree from '../../../../assets/images/Rectangle 54 (5).png';
@@ -36,9 +36,17 @@ function Hero() {
             alt="A waiter holding a coffee"
             className="hero__img"
           />
-          <img src={heroImgTwo} alt="" className="hero__img" />
-          <img src={heroImgThree} alt="" className="hero__img" />
-          <img src={heroImgFour} alt="" className="hero__img" />
+          <img src={heroImgTwo} alt="A girl smiling" className="hero__img" />
+          <img
+            src={heroImgThree}
+            alt="Two men checking out some clothes in a store"
+            className="hero__img"
+          />
+          <img
+            src={heroImgFour}
+            alt="A dark skinned lady smiling"
+            className="hero__img"
+          />
         </div>
       </div>
     </section>

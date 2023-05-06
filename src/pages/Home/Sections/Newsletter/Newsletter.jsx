@@ -6,7 +6,11 @@ function Newsletter() {
     <section>
       <div className="newsletter">
         <div className="newsletter__imgbox">
-          <img src={NewsletterCover} alt="" className="newsletter__img" />
+          <img
+            src={NewsletterCover}
+            alt="A dark skinned lady smiling"
+            className="newsletter__img"
+          />
         </div>
         <div className="newsletter__msgbox">
           <div className="newsletter__msgbox--msg">
@@ -17,7 +21,7 @@ function Newsletter() {
             <a href="#">Go behind the scenes with MadebyJo</a>
           </div>
           <div className="newsletter__zigzag">
-            <img src={zigZag} alt="" />
+            <img src={zigZag} alt="zig zag" />
           </div>
         </div>
       </div>

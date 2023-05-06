@@ -10,22 +10,22 @@ function Resources() {
         <div className="resources__accordion--resource">
           <span className="resources__accordion--resource-num">01</span>
           <h1>Check out Pact Business School</h1>
-          <img src={rightArrow} alt="" />
+          <img src={rightArrow}  />
         </div>
         <div className="resources__accordion--resource">
           <span className="resources__accordion--resource-num">02</span>
           <h1>Get access to support you need</h1>
-          <img src={rightBentArrow} alt="" />
+          <img src={rightBentArrow} alt="right bent arrow icon" />
         </div>
         <div className="resources__accordion--resource">
           <span className="resources__accordion--resource-num">03</span>
           <h1>Browse our business software and solutions</h1>
-          <img src={rightArrow} alt="" />
+          <img src={rightArrow} alt="right arrow icon" />
         </div>
         <div className="resources__accordion--resource">
           <span className="resources__accordion--resource-num">04</span>
           <h1>What pricing plan is good for me?</h1>
-          <img src={rightArrow} alt="" />
+          <img src={rightArrow} alt="right arrow icon" />
         </div>
       </div>
     </div>

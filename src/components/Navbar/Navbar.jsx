@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import pactLogo from '../../assets/pact_logo.svg';
+import pactLogo from '../../assets/Logos/pact_logo.svg';
 import searchIcon from '../../assets/icons/searchicon.svg';
 import './Navbar.css';
 

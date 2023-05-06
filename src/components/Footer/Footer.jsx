@@ -1,4 +1,4 @@
-import pactLogo from '../../assets/pact_logo.svg';
+import pactLogo from '../../assets/Logos/pact_logo.svg';
 import linkedIn from '../../assets/icons/linkedin.svg';
 import instagram from '../../assets/icons/Group.svg';
 import twitter from '../../assets/icons/twitter.svg';
