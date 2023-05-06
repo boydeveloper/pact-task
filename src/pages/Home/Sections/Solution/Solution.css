@@ -89,6 +89,9 @@
     font-size: 4rem;
     margin-bottom: 2rem;
   }
+  .solution__grid-item {
+    padding: 2.4rem 2rem;
+  }
 }
 @media (max-width: 472px) {
   .solution__wrapper > h1 {
