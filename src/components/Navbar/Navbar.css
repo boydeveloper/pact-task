@@ -34,6 +34,10 @@
   border: 0.1rem solid #cccc;
   border-radius: 0.8rem;
 }
+.navbar__input > input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem var(--primary-color);
+}
 .navbar__links {
   display: flex;
   align-items: center;
@@ -43,6 +47,11 @@
 .navbar__links > a:visited {
   color: var(--text-color);
   text-decoration: none;
+  transition: opacity 0.3s;
+}
+.navbar__links > a:hover,
+.navbar__links > a:active {
+  opacity: 0.8;
 }
 .navbar__cta {
   display: flex;
@@ -52,7 +61,14 @@
 .navbar__cta > a:link,
 .navbar__cta > a:visited {
   text-decoration: none;
+  transition: opacity 0.3s;
 }
+
+.navbar__cta > a:hover,
+.navbar__cta > a:active {
+  opacity: 0.9;
+}
+
 .navbar__menu {
   display: flex;
   width: 85%;
