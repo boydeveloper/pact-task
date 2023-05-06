@@ -9,6 +9,7 @@ function Navbar() {
     <header>
       <div className="container">
         <div className={navOpen ? 'navbar__open navbar' : 'navbar'}>
+          <div className="overlay" onClick={() => setnavOpen(false)}></div>
           <div className="navbar__brand">
             <img src={pactLogo} alt="pact logo" />
             <p>Pact</p>
